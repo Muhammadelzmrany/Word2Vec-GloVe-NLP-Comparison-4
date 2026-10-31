@@ -111,6 +111,36 @@ Evaluation includes:
 - Per-class precision, recall, and F1-score.
 - Confusion matrices.
 
+
+## Results & Visualizations
+
+The following figures are generated directly by the project notebook.
+
+### PCA Embedding Visualization
+
+| Word2Vec (Skip-gram) | GloVe |
+|---|---|
+| ![Word2Vec PCA](assets/pca-word2vec.png) | ![GloVe PCA](assets/pca-glove.png) |
+
+### t-SNE Embedding Visualization
+
+| Word2Vec (Skip-gram) | GloVe |
+|---|---|
+| ![Word2Vec t-SNE](assets/tsne-word2vec.png) | ![GloVe t-SNE](assets/tsne-glove.png) |
+
+### Topic Similarity Analysis
+
+![Topic coherence comparison](assets/topic-coherence-comparison.png)
+
+### Classification Evaluation
+
+| Word2Vec (Skip-gram) | GloVe |
+|---|---|
+| ![Word2Vec confusion matrix](assets/confusion-matrix-word2vec.png) | ![GloVe confusion matrix](assets/confusion-matrix-glove.png) |
+
+![Classification metrics comparison](assets/classification-results.png)
+
+
 ## Technologies
 
 - Python
